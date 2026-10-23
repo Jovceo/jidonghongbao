@@ -1,0 +1,18 @@
+# 运行产物与账户取证（含个人信息，严禁提交公开仓库）
+.workbuddy-ai/
+runs/
+*.log
+
+# 本地化配置与凭据
+*.local.*
+mcp.json
+browser-profile/
+.env
+
+# 依赖与编辑器
+node_modules/
+.vscode/
+
+# 系统杂项
+Thumbs.db
+.DS_Store
