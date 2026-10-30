@@ -19,9 +19,21 @@
 - 🤖 可选无人值守：定时唤起常驻 Agent 到点自动抢（用户明确授权后接入）
 - 🛡️ 边界清晰：登录/验证码永远交给本人，不碰 Cookie，不做多账户，不进下单流程
 
+## 安装
+
+**一行命令（推荐，需 Node.js 22.20+）**——在 Qoder IDE 终端执行：
+
+```bash
+npx skills add Jovceo/jidonghongbao -a qoder
+```
+
+其他宿主把 `-a qoder` 换成 `-a claude-code` / `-a codex` 等（或省略进入交互选择）。安装来源格式也支持完整 URL：`https://github.com/Jovceo/jidonghongbao`。验证仓库可解析（只列出不安装）：`npx skills add Jovceo/jidonghongbao --list`。
+
+**手动安装**：把本目录整体拷入宿主的 skills 目录（Qoder：`~/.qoder/skills/jidonghongbao/`；Claude Code：`~/.claude/skills/jidonghongbao/`），重启或刷新会话。
+
 ## 3 分钟上手
 
-1. **安装**：把本目录整体拷入你 AI 工具的 skills 目录（见下表），重启或刷新会话；
+1. **安装**：用上方任一方式；
 2. **浏览器**：工具已有浏览器能力（内置或已配 MCP）→ 跳过；没有 → 对 Agent 说"帮我配置浏览器工具"，它会按 [references/windows-browser.md](references/windows-browser.md) 引导你；
 3. **开抢**：对 Agent 说一句
    > 使用 jidonghongbao，帮我看看双11有什么红包能领
