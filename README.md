@@ -36,6 +36,7 @@
 | WorkBuddy | `%USERPROFILE%\.workbuddy-ai\skills\` 拷贝即可（注意是 `.workbuddy-ai` 不是 `.workbuddy`） | 自带 Playwright Chromium，专用配置目录已实测 | ✅ 实测通过（含无人值守适配） |
 | Codex CLI | 标准 SKILL.md 格式 | 需手动挂 MCP：[examples/codex-config.toml](examples/codex-config.toml) | ⬜ 待实测 |
 | Claude Code | `~/.claude/skills/` 拷贝即可 | 需挂浏览器 MCP | ⬜ 待实测 |
+| macOS 任意宿主 | 战术层平台无关（作用于网页 DOM） | 接入见 [references/macos-browser.md](references/macos-browser.md) | ⬜ 理论兼容，未经实机验证 |
 | 其他支持 SKILL.md 的 Agent | 按各自文档 | 需满足下方能力标准 | ⬜ 欢迎测试 |
 
 **浏览器能力最低标准**（任何宿主通用）：打开页面 / 读取 DOM 或截图 / 点击控件。缺任何一项，技能会如实报告限制而不是假装领取。
@@ -58,8 +59,9 @@ CHANGELOG.md                  规则演进时间线（每场实测如何改变�
 references/
   double11-2026.md            2026 双11 入口、选择器、已验证打法（含整点骰子提示）
   windows-browser.md          浏览器接入 + 宿主兼容矩阵
+  macos-browser.md            macOS 接入指引（理论兼容，未经实机验证）
 examples/                     MCP 配置示例（JSON ×2 / Codex TOML ×1）
-scripts/                      整点提醒弹窗脚本（可选，定时接入形态①）
+scripts/                      整点提醒脚本（PowerShell ×2 / bash ×1，可选，定时接入形态①）
 docs/                         门面图（已裁除账号信息的实抢截图）
 ```
 

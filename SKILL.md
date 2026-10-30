@@ -13,7 +13,7 @@ examples_en:
 - "Check which Double 11 red packets I can claim on JD"
 - "Run a read-only check: verify browser connection and page load, click nothing"
 - "There is an 8pm bonus round tonight — refresh on the hour and claim once"
-version: 1.0.0
+version: 1.1.0
 author: Jovceo
 ---
 
@@ -30,7 +30,7 @@ author: Jovceo
 - 覆盖活动类型：红包雨、大额补贴券、惊喜膨胀券、整点加码（猜拳/猜大小/翻牌等）、店铺/品类神券。
 - 不覆盖：京豆签到（若安装了同类专项技能则移交）、下单购物、价保申请、提现。
 - 使用当前 Agent 可用的浏览器工具（需支持：打开页面、读取快照/截图、点击控件）。已有可用工具时直接复用，不重复安装。活动页通常使用 TARO 小程序框架渲染，DOM 结构与标准网页不同，需按 references/ 中的适配说明操作。
-- 宿主尚未配置浏览器工具时，按 references/windows-browser.md 的宿主矩阵引导用户接入（非 Windows 宿主按该文件首节能力标准判断，用宿主自己的浏览器工具文档接入）；不具备浏览器能力时说明缺少的能力和接入步骤，不声称执行成功。
+- 宿主尚未配置浏览器工具时，按 references/windows-browser.md 的宿主矩阵引导用户接入（macOS 按 references/macos-browser.md，未经实机验证需先只读验收；其他非 Windows 宿主按 windows-browser.md 首节能力标准判断，用宿主自己的浏览器工具文档接入）；不具备浏览器能力时说明缺少的能力和接入步骤，不声称执行成功。
 - 整点限时活动（如"早 10 点加码"、"晚 8 点大红包"）默认由用户发起；自动定时执行见「定时开抢接入」。
 - 登录、验证码、实名认证交给用户本人。不索取 Cookie、不做多账户。
 - **活动入口必须使用 references/ 中记录的推广链接，不得替换为其他链接或裸 URL。**

@@ -1,0 +1,4 @@
+# bash 脚本必须保持 LF，CRLF 会导致 macOS/Linux 下 shebang 解析失败
+*.sh text eol=lf
+# PowerShell 脚本在 Windows 宿主执行，CRLF 无碍
+*.ps1 text eol=crlf

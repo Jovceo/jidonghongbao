@@ -2,6 +2,11 @@
 
 本技能包的规则全部来自真实整点场次实测与双宿主交叉复盘，以下为演进时间线（详情见 [references/double11-2026.md](references/double11-2026.md) 对应战例）。
 
+## v1.1.0 — 2026-10-30
+
+- macOS 接入路标：新增 references/macos-browser.md（Playwright MCP/扩展/安装路径/cron 提醒/实机验证清单）与 scripts/remind.sh；README 兼容表增 macOS 行——口径为「理论兼容，未经实机验证」，验证清单见该文件末节
+- 10-30 早场直塞型踩点 7 秒命中 ¥1.18 无门槛现金（双场加码日，晚 8 点场另记）
+
 ## v1.0.0 — 2026-10-23（开源发布）
 
 - 开源就绪：新增 SECURITY.md / CONTRIBUTING.md，SKILL frontmatter 补 version/license，`@playwright/mcp` pin 至 0.0.83，.gitignore 加固
