@@ -6,12 +6,12 @@ description: 京东促销活动红包与神券领取。用于双11、618、年�
 description_zh: 在本人京东账号上领取大促红包、神券与整点加码，内置踩点刷新与双宿主交叉验证的实战时间表；登录、验证码、风控始终交还本人，不碰 Cookie，不做多账户。
 description_en: Claim JD promo red packets and coupons on your own account, including hourly bonus rounds, with a field-tested timing playbook. Login, captcha and risk checks are always handed back to the user; no cookies, no multi-account.
 examples_zh:
-- "使用 jidonghongbao，帮我看看双11有什么红包能领"
-- "用 jidonghongbao 跑一次只读验收：只检查浏览器连接和活动页加载，不点任何领取按钮"
+- "帮我看看双11有哪些京东红包能领"
+- "跑一次只读验收：只检查浏览器连接和活动页加载，不点任何领取按钮"
 - "今晚8点有整点加码，帮我踩点刷新并抢一次"
 examples_en:
-- "Use jidonghongbao to check which Double 11 red packets I can claim"
-- "Run a read-only acceptance check: verify browser connection and page load, click nothing"
+- "Check which Double 11 red packets I can claim on JD"
+- "Run a read-only check: verify browser connection and page load, click nothing"
 - "There is an 8pm bonus round tonight — refresh on the hour and claim once"
 version: 1.0.0
 author: Jovceo
