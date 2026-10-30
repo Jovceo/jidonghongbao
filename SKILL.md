@@ -1,8 +1,14 @@
 ---
 name: jidonghongbao
-version: 1.0.0
-license: MIT
+display_name: 京东红包与神券领取
+display_name_en: JD Promo Red Packet Claimer
 description: 京东促销活动红包与神券领取。用于双11、618、年货节等大促期间的红包抢夺、优惠券领取和整点活动参与。不覆盖京豆签到（使用同类专项技能）、默认不自动创建定时任务（用户明确要求时可按接入章节配置）、不绕过验证。
+description_zh: 在本人京东账号上领取大促红包、神券与整点加码，内置踩点刷新与双宿主交叉验证的实战时间表；登录、验证码、风控始终交还本人，不碰 Cookie，不做多账户。
+description_en: Claim JD promo red packets and coupons on your own account, including hourly bonus rounds, with a field-tested timing playbook. Login, captcha and risk checks are always handed back to the user; no cookies, no multi-account.
+version: 1.0.0
+author: Jovceo
+license: MIT
+agent_created: true
 ---
 
 # 京东促销红包与神券领取
