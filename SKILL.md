@@ -2,9 +2,9 @@
 name: jidonghongbao
 display_name: 京东红包与神券领取
 display_name_en: JD Promo Red Packet Claimer
-description: 京东促销活动红包与神券领取。用于双11、618、年货节等大促期间的红包抢夺、优惠券领取和整点活动参与。不覆盖京豆签到（使用同类专项技能）、默认不自动创建定时任务（用户明确要求时可按接入章节配置）、不绕过验证。
-description_zh: 双十一 / 618 / 年货节大促：在本人京东账号上领红包、神券与整点加码。内置「整点前 1-2 秒踩点刷新」与双宿主交叉验证的实战时间表，覆盖早 10 点、晚 8 点等限时不限量场次；登录、验证码、风控始终交还本人，不碰 Cookie，不做多账户。
-description_en: Double 11 / 618 / New Year sales: claim JD red packets, coupons and hourly bonus rounds on your own account. Ships a field-tested timing playbook (refresh 1-2 seconds before the hour) plus cross-host verified tactics for limited-time, unlimited-quantity rounds. Login, captcha and risk checks always stay with you — no cookies, no multi-account.
+description: "京东促销活动红包与神券领取。用于双11、618、年货节等大促期间的红包抢夺、优惠券领取和整点活动参与。不覆盖京豆签到（使用同类专项技能）、默认不自动创建定时任务（用户明确要求时可按接入章节配置）、不绕过验证。"
+description_zh: "双十一 / 618 / 年货节大促：在本人京东账号上领红包、神券与整点加码。内置「整点前 1-2 秒踩点刷新」与双宿主交叉验证的实战时间表，覆盖早 10 点、晚 8 点等限时不限量场次；登录、验证码、风控始终交还本人，不碰 Cookie，不做多账户。"
+description_en: "Double 11 / 618 / New Year sales — claim JD red packets, coupons and hourly bonus rounds on your own account. Ships a field-tested timing playbook (refresh 1-2 seconds before the hour) plus cross-host verified tactics for limited-time, unlimited-quantity rounds. Login, captcha and risk checks always stay with you — no cookies, no multi-account."
 examples_zh:
 - "帮我看看双11有哪些京东红包能领"
 - "跑一次只读验收：只检查浏览器连接和活动页加载，不点任何领取按钮"
